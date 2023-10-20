@@ -1,14 +1,53 @@
-# User Story
+## SVG Logo Maker
 
-As a freelance web developer, I want to generate a simple logo for my projects so that I don't have to pay a graphic designer.
+SVG Logo Maker is a Node.js application that allows you to create custom SVG logos with various shapes. It gathers input from the user regarding the text, text color, background color, and shape of the logo.
 
-## Acceptance Criteria
+## Prerequisites
 
-- **Input Prompt**: Given a command-line application that accepts user input.
-- **Text Input**: When I am prompted for text, I can enter up to three characters.
-- **Text Color**: When I am prompted for the text color, I can enter a color keyword or a hexadecimal number.
-- **Shape Selection**: When I am prompted for a shape, I am presented with a list of shapes to choose from: circle, triangle, and square.
-- **Shape Color**: When I am prompted for the shape's color, I can enter a color keyword or a hexadecimal number.
-- **SVG Creation**: When I have entered input for all the prompts, an SVG file is created named logo.svg.
-- **Confirmation**: The output text "Generated logo.svg" is printed in the command line.
-- **View in Browser**: When I open the logo.svg file in a browser, I am shown a 300x200 pixel image that matches the criteria I entered.
+Before using this application, make sure you have the following prerequisites installed:
+
+- [Node.js](https://nodejs.org/): Ensure you have Node.js installed on your system.
+
+## Getting Started
+
+1. Clone this repository to your local machine or download the source code.
+
+2. Open a terminal or command prompt and navigate to the project directory.
+
+3. Install the required dependencies by running the following command:
+
+   ```bash
+   npm install
+
+## Usage
+
+To create your custom SVG logo, follow these steps:
+
+Run the application by executing the following command:
+
+bash
+Copy code
+node app.js
+You will be prompted to answer a series of questions, including:
+
+Enter the text for your logo (maximum: 3 letters).
+Enter a text color keyword or a hexadecimal number for the logo text color.
+Please enter a color keyword or a hexadecimal number for the logo background color.
+Select a logo shape from the available options (circle, triangle, square).
+After providing your answers, the application will generate the SVG logo and save it as "logo.svg" in the project directory.
+
+You can view and use your custom SVG logo as needed.
+
+## Contributing
+
+Feel free to contribute to this project by opening issues or pull requests on the GitHub repository if available.
+
+## License
+
+This project is open-source and available under the MIT License. You can freely use and modify this application as needed.
+
+## Acknowledgments
+
+This project relies on Inquirer for user input and Jest for unit testing.
+Special thanks to the open-source community for their contributions and support.
+Enjoy creating your SVG logos!
