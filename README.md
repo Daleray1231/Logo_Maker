@@ -25,22 +25,26 @@ To create your custom SVG logo, follow these steps:
 
 Run the application by executing the following command:
 
-bash
-Copy code
-node app.js
+bash > enter 'node index.js' into the command line
+
 You will be prompted to answer a series of questions, including:
 
-Enter the text for your logo (maximum: 3 letters).
-Enter a text color keyword or a hexadecimal number for the logo text color.
-Please enter a color keyword or a hexadecimal number for the logo background color.
-Select a logo shape from the available options (circle, triangle, square).
-After providing your answers, the application will generate the SVG logo and save it as "logo.svg" in the project directory.
+1. Enter the text for your logo (maximum: 3 letters).  
+2. Enter a text color keyword or a hexadecimal number for the logo text color.  
+3. Please enter a color keyword or a hexadecimal number for the logo background color.  
+4. Select a logo shape from the available options (circle, triangle, square).  
+  
+After providing your answers, the application will generate the SVG logo and save it as "logo.svg" in the project directory.  
 
 You can view and use your custom SVG logo as needed.
+
+[Tutorial Video]()
 
 ## Contributing
 
 Feel free to contribute to this project by opening issues or pull requests on the GitHub repository if available.
+
+[Github Repo](https://github.com/Daleray1231/Logo_Maker) 
 
 ## License
 
