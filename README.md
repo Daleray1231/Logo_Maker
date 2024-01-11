@@ -38,7 +38,7 @@ After providing your answers, the application will generate the SVG logo and sav
 
 You can view and use your custom SVG logo as needed.
 
-[Tutorial Video](https://share.vidyard.com/watch/Yqfagd9eLkNrwcS4hcMyxF?) 
+[Tutorial Video](https://share.vidyard.com/watch/zhVmZfVbJ9Jr4S5wLqVL3W?) 
 
 ![Alt text](image-1.png)
 
