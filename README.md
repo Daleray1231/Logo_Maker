@@ -40,7 +40,7 @@ You can view and use your custom SVG logo as needed.
 
 [Tutorial Video](https://share.vidyard.com/watch/zhVmZfVbJ9Jr4S5wLqVL3W?) 
 
-![Alt text](image-1.png)
+![alt text](images/image-1.png)
 
 ## Contributing
 

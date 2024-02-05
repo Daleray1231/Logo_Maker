@@ -1,9 +1,7 @@
-// Required modules
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Circle, Triangle, Square } = require('./lib/shapes.js');
 
-// Define a list of questions to gather input from the user
 const questions = [
   {
     type: 'input',
@@ -28,9 +26,7 @@ const questions = [
   },
 ];
 
-// Function to initialize the application
 function init() {
-  // Prompt the user with questions
   inquirer.prompt(questions)
     .then((answers) => {
       let shapeInstance;
@@ -49,10 +45,8 @@ function init() {
           return;
       }
 
-      // Generate SVG content based on user input
       const svgContent = shapeInstance.render();
 
-      // Write the SVG content to a file
       fs.writeFile('logo.svg', svgContent, (err) => {
         if (err) throw err;
         console.log('Generated logo.svg!');
@@ -60,5 +54,4 @@ function init() {
     });
 }
 
-// Function call to initialize the application
 init();
